@@ -29,3 +29,25 @@ const myFunction = function(){
 console.log(typeof id)
 console.log(typeof score)
 console.log(typeof bigInt)
+
+
+// *************** Stack and Heap *************************8
+// Stack(Primitive), Heap(Non-Primitive)
+let myName = "Piyush"
+
+let anotherName = "Aadarsh"
+anotherName = "Chirag"
+
+console.log(myName)
+console.log(anotherName)
+
+let userOne = {
+    userName: "PiyushSingh",
+    email: "Piyush@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Aadarsh@gmail.com"
+console.log(userOne)
+console.log(userTwo)
